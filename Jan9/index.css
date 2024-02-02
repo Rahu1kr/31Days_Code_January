@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #4d4a4a;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding-top: 20px;
+}
+h1{
+    
+    font-size: 50px;
+    margin: 30px;
+    color: white;
+}
+
+#inputBox{
+    width: 80%;
+    height: 40%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    transition: all 0.15s;
+    outline: none;
+    max-width: 780px;
+    resize: vertical;
+    font-size: 20px;
+    font-family: cambria;
+    margin-top: 10px;
+}
+
+#inputBox:focus{
+    box-shadow: 0px 0px 2px 4px rgb(140, 138, 138);
+}
+
+#inputBox:hover{
+    border: 4px solid #827c7c;
+
+}
+
+.options{
+    color: white;
+    display: flex;
+    
+    flex-direction: column;
+    
+    margin-top: 20px;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 4px 4px 6px 1px rgb(99, 124, 125);
+    transition: all 0.5s;
+    font-size:20px;
+}
+
+.options label:hover{
+    cursor: pointer;
+    background-color: rgb(237, 173, 173);
+    color: rgb(175, 84, 84);
+}
+
+.options input[type="radio"]{
+    display:none;
+}
+
+.options input[type="radio"]:checked+label{
+    background-color: rgb(82, 167, 161);
+    color: white;
+    box-shadow: 2px 1px 1px 1px rgb(99, 124, 125);
+}
+

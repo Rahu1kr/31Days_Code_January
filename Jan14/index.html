@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nov15/FormValidation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Registration Form</h3>
+        </div>
+        <form>
+            <div class="input-container">
+                <label for="name">Username</label>
+                <input type="text" id="name" onchange="inputHandler('name')">
+                <i class="fa-solid fa-circle-check" style="color: #73ce75;"></i>
+                <i class="fa-solid fa-circle-exclamation" style="color: #73ce75;"></i>
+                <small>Error message</small>
+            </div>
+            <div class="input-container">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" onchange="inputHandler('eamil')">
+                <i class="fa-solid fa-circle-check" style="color: #73ce75;"></i>
+                <i class="fa-solid fa-circle-exclamation" style="color: #73ce75;"></i>
+                <small>Error message</small>
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" onchange="inputHandler('password')">
+                <i class="fa-solid fa-circle-check" style="color: #73ce75;"></i>
+                <i class="fa-solid fa-circle-exclamation" style="color: #73ce75;"></i>
+                <small>Error message</small>
+            </div>
+            <div class="input-container">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" onchange="inputHandler('confirmPassword')">
+                <i class="fa-solid fa-circle-check" style="color: #73ce75;"></i>
+                <i class="fa-solid fa-circle-exclamation" style="color: #73ce75;"></i>
+                <small>Error message</small>
+            </div>
+            <input type="submit" value="Submit" id="btn">
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

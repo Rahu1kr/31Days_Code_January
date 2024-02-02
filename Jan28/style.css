@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=League+Spartan:wght@400;500;600;700;800&family=Merriweather&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@400;500;600&family=Roboto+Mono:wght@200&family=Roboto:ital,wght@1,700&family=Shadows+Into+Light&family=Ubuntu:wght@300;400;500;700&family=Ysabeau+Infant:wght@100;200;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+
+.container{
+    background-color: rgb(2, 47, 82);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+h1{
+    text-underline-offset: 15px;
+    padding: 40px 0;
+}
+
+samp{
+    color: rgb(0, 142, 94);
+}
+
+input{
+    height: 50px;
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.fa-copy{
+    position: absolute;
+    right: 10px;
+    top: 63%;
+    color: rgb(0, 142, 94);
+    left: 62%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 142, 94);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.fa-solid{
+    padding-right: 5px;
+}
+
+input:hover{
+    box-shadow: 0px 0px 5px white;
+}
+
+#btn:hover{
+    box-shadow: 0px 0px 5px rgb(2, 210, 141);
+}

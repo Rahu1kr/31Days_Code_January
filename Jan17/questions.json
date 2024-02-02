@@ -1,0 +1,34 @@
+[
+    {
+        "question": "Which language runs in a web browser?",
+        "opt1": "Java",
+        "opt2": "C",
+        "opt3": "Python",
+        "opt4": "JavaScript",
+        "correct": "opt4"
+    },
+    {
+        "question": "What does CSS stand for?",
+        "opt1": "Central Style Sheets",
+        "opt2": "Cascading Style Sheets",
+        "opt3": "Cascading Simple Sheets",
+        "opt4": "Cars SUVs Sailboats",
+        "correct": "opt2"
+    },
+    {
+        "question": "What does HTML stand for?",
+        "opt1": "Hypertext Markup Language",
+        "opt2": "Hypertext Markdown Language",
+        "opt3": "Hypertext Machine Language",
+        "opt4": "Helicopters Terminals Motorboats Lamborginis",
+        "correct": "opt1"
+    },
+    {
+        "question": "What year was Javascript Launched?",
+        "opt1": "1995",
+        "opt2": "1996",
+        "opt3": "1994",
+        "opt4": "none of the above",
+        "correct": "opt2"
+    }
+]
